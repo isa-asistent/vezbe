@@ -7,7 +7,7 @@ Kontroleri su anotirani sa *@RestController*. Anotacija je izvedena od anotacije
 ###### Materijali koje je neophodno proučiti da bi se primer mogao uspešno ispratiti:
 
 * [Arhitekture klasičnih i savremenih web aplikacija](https://www.youtube.com/watch?v=XnEnUtSw8Rc)
-* [REST.pdf](https://github.com/stojkovm/isara2021vezbe/blob/main/Vezbe03/REST.pdf) iz foldera _Vezbe02_
+* [REST.pdf]([https://github.com/stojkovm/isara2021vezbe/blob/main/Vezbe03/REST.pdf](https://github.com/isa-asistent/vezbe/blob/main/Vezbe02/OpenAPI%20REST/REST.pdf)) iz foldera _Vezbe02_
 
 ###### Struktura primera
 
