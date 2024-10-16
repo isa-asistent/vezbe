@@ -51,7 +51,6 @@ public class InMemoryGreetingRepository implements GreetingRepository {
 
 	@Override
 	public ArrayList<Greeting> searchByText(Optional<String> text) {
-
 		ArrayList<Greeting> foundGreetings = (ArrayList<Greeting>) this.greetings.values().stream()
 				.filter(x -> x.getText().toLowerCase().contains(text.get().toLowerCase()))
 				.collect(Collectors.toList());

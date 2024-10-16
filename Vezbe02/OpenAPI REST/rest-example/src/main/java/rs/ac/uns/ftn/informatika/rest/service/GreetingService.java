@@ -16,7 +16,7 @@ public interface GreetingService {
 
 	Greeting create(GreetingDTO greeting) throws Exception;
 
-	Greeting update(GreetingDTO greeting) throws Exception;
+	Greeting update(GreetingDTO greeting, Long id) throws Exception;
 
 	Greeting delete(Long id);
 

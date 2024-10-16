@@ -40,15 +40,14 @@ public class GreetingServiceImpl implements GreetingService {
 	}
 
 	@Override
-	public Greeting update(GreetingDTO greeting) throws Exception {
-		Greeting greetingToUpdate = findOne(greeting.getId());
+	public Greeting update(GreetingDTO greeting, Long id) throws Exception {
+		Greeting greetingToUpdate = findOne(id);
 		if (greetingToUpdate == null) {
 			throw new Exception("Trazeni entitet nije pronadjen.");
 		}
 		greetingToUpdate.setText(greeting.getText());
 		greetingToUpdate.setAuthor(greeting.getAuthor());
-		Greeting updatedGreeting = greetingRepository.create(greetingToUpdate);
-		return updatedGreeting;
+		return greetingToUpdate;
 	}
 
 	@Override

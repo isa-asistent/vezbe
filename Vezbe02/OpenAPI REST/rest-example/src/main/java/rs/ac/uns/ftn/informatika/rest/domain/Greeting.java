@@ -42,11 +42,4 @@ public class Greeting {
         this.text = text;
     }
     
-    public void copyValues(GreetingDTO greeting) {
-    		this.text = greeting.getText();
-            this.author = greeting.getAuthor();
-    }
-
-
-
 }
