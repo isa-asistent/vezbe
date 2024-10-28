@@ -1,4 +1,4 @@
-# Vežbe 3 - Rad sa ORM i bazom podataka
+# Vežbe 4 - Rad sa ORM i bazom podataka
 
 ## jpa-example
 
