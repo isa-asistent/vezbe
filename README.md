@@ -7,7 +7,11 @@
 # OBAVEŠTENJA
 
 
-# FAQ
+# FAQ - projekat
+1. Autorizacija svih ruta (__endpoint-a__) je **obavezna**. Autentifikacija i autorizacija se prepušta studentu, što znači da niste u obavezi da koristite __Spring security__ ili neki drugi radni okvir, ali morate imati implementirane kontrole pristupa za svaki __endpoint__. Takođe, morate na neki način omogućiti praćenje ulogovanog korisnika (putem JWT, __cookie__, sesija ili nešto deseto svejedno). Ovaj zahtev se odnosi i na kontrolne tačke i na finalnu odbranu.
+2. Fotografija koja se postavlja prilikom kreiranja objave ne može da se čuva u bazi u base64 ili BLOB formatu. Fotografija se čuva na fajl sistemu, a putanja može da se čuva u bazi.
+
+# FAQ generalno
 
 1. Profesori/asistenti mi ne odgovaraju na email. Zašto?
    - Profesori i asistenti uvek pokušavaju da u što kraćem roku adekvatno odgovore na pitanje/molbu/zahtev. U zavisnosti od kompleksnosti zahteva i trenutne dostupnosti predavača, na odgovor se može čekati i malo duže.
