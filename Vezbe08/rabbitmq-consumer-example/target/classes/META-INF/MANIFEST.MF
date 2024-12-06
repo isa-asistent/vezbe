@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: milena
+Build-Jdk: 21.0.5
+Implementation-Title: rabbitmq-consumer-example
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: rs.ac.uns.ftn.informatika.rabbitmq
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/rabbitmq-consumer-example
+Created-By: Maven Integration for Eclipse
+
